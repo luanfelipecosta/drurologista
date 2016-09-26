@@ -1,0 +1,122 @@
+<footer class="sep_angled_positive_top separator_top ">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <!-- ========================== WIDGET ABOUT US ==========================-->
+
+                <aside id="plethora-aboutus-widget-1" class="widget aboutus-widget">
+
+                    <div class="pl_about_us_widget">
+
+                        <!-- tofix --><p><img src='{{ "dist/images/theme/dr_urologista_logo_white.png" | prepend: site.baseurl }}' alt='logo'></p>
+
+
+                        <p>Consultas, exames e tratamentos. </p>
+
+
+                            <p class='contact_detail'><i class='fa fa-2x fa-phone'></i><span> (12) 3923-4146 / 3923-4166</span></p>
+
+                            <p class="contact_detail">
+                                <a href='#'
+                                target='_blank'>
+                                <i class='fa fa-location-arrow'></i>
+                            </a>
+                            <span> R . Marcondes Salgado, 74 - São José dos Campos - SP, 12243-820</span>
+                        </p>
+                    </div>
+                </aside>
+
+                <!-- END======================= WIDGET ABOUT US ==========================-->
+
+            </div>
+
+    </div>
+</footer>
+<div class="copyright dark_section">
+    <div class="dark_section transparent_film">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    Copyright &copy;2016 all rights reserved </div>
+                    <div class="col-sm-6 col-md-6 text-right">
+                        Designed by <a>Luan Felipe Costa (12) 98115-2989</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    END ========================= OVERFLOW WRAPPER FINISH ========================  -->
+    <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- begin olark code -->
+
+
+    <script type='text/javascript' src='{{ "dist/scripts/owl.carousel.min-ver=2.4.js" | prepend: site.baseurl }}'></script>
+    <script type='text/javascript' src='{{ "dist/scripts/bootstrap.min-ver=4.5.1.js" | prepend: site.baseurl }}'></script>
+    <script type='text/javascript' src='{{ "dist/scripts/easing.min-ver=4.5.1.js" | prepend: site.baseurl }}'></script>
+    <script type='text/javascript' src='{{ "dist/scripts/wow.min-ver=4.5.1.js" | prepend: site.baseurl }}'></script>
+    <script type='text/javascript' src='{{ "dist/scripts/conformity.min-ver=4.5.1.js" | prepend: site.baseurl }}'></script>
+    <script type='text/javascript' src='{{ "dist/scripts/particles.min-ver=4.5.1.js" | prepend: site.baseurl }}'></script>
+    <script type='text/javascript' src='{{ "dist/scripts/parallax.min-ver=4.5.1.js" | prepend: site.baseurl }}'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var themeConfig = {"GENERAL":{"debug":false,"onePagerScrollSpeed":300},"NEWSLETTERS":{"messages":{"successMessage":"SUCCESS","errorMessage":"ERROR","required":"This field is required.","remote":"Please fix this field.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date ( ISO ).","number":"Please enter a valid number.","digits":"Please enter only digits.","creditcard":"Please enter a valid credit card number.","equalTo":"Please enter the same value again.","name":"Please specify your name","email":{"required":"We need your email address to contact you","email":"Your email address must be in the format of name@domain.com"}}},"PARTICLES":{"enable":true,"color":"#bcbcbc","opacity":0.8,"bgColor":"transparent","bgColorDark":"transparent","colorParallax":"#4D83C9","bgColorParallax":"transparent"}};
+        /* ]]> */
+
+    </script>
+    <script type='text/javascript' src='{{ "dist/scripts/theme-ver=4.5.1.js" | prepend: site.baseurl }}'></script>
+    <script type='text/javascript' src='{{ "dist/scripts/wp-embed.min-ver=4.5.1.js" | prepend: site.baseurl }}'></script>
+    <script type='text/javascript' src='{{ "dist/scripts/js_composer_front.min-ver=4.11.2.1.js" | prepend: site.baseurl }}'></script>
+    <!-- TEMPLATE PART: /themes/healthflex/page.php -->
+    <script>
+        jQuery(function($) {
+
+            "use strict";
+
+            var $owl = $("#head_panel_slider");
+            $owl.owlCarousel({
+                items              : 1,
+                autoplay           : _p.checkBool(1),
+                autoplayTimeout    : 980000,
+                autoplaySpeed      : 1000,
+                autoplayHoverPause : _p.checkBool(1),
+                nav                : _p.checkBool(1),
+                dots               : _p.checkBool(0),
+                loop               : _p.checkBool(1),
+                mousedrag		   : _p.checkBool(1),
+                touchdrag		   : _p.checkBool(1),
+                lazyload      	   : _p.checkBool(1),
+                rtl      	   	   : _p.checkBool(),
+            });
+            var $headPanelSliderOwlCarousel = $("#head_panel_slider.owl-carousel");
+            $headPanelSliderOwlCarousel.find(".item .container .caption .inner").addClass("hide pause_animation");
+            $headPanelSliderOwlCarousel.find(".active .item .container .caption .inner").removeClass("hide pause_animation");
+            $owl.on("translated.owl.carousel", function(event) {
+                $headPanelSliderOwlCarousel.find(".item .container .caption .inner").addClass("hide pause_animation");
+                $headPanelSliderOwlCarousel.find(".active .item .container .caption .inner").removeClass("hide pause_animation");
+            })
+        });
+
+
+    </script>
+    <script type="text/javascript">
+    $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+          }, 750);
+            return false;
+          }
+        }
+        });
+    });
+    </script>
+
+    {% include modals.html %}
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+.sobre-profile {
+  width: 410px;
+  margin-left: 40px;
+  border: 1px solid #f9f9f9;
+  padding: 5px;
+  /* border-radius: 5px; */
+  background: #fff; }
+
+.convenio-img {
+  max-width: 150px; }
+
+.m-b-20 {
+  margin-bottom: 20px; }
+
+.caption .inner .t3 {
+  font-size: 40px; }
+
+.t2 span {
+  margin-top: 20px; }
+  .t2 span .fa-whatsapp {
+    color: #00ff00; }
+
+.post-wrapper {
+  margin: 0 0 300px 0; }
+  .post-wrapper .post-banner {
+    display: block;
+    margin: 0 auto; }
+
+.post-title {
+  font-weight: 900;
+  margin: -3px 0 13px 0;
+  font-size: 33px;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word; }
+
+.teaser_box .content.boxed_special {
+  min-height: 85px; }
+
+@media (max-width: 991px) {
+  .menu_container {
+    background-color: #fff; } }

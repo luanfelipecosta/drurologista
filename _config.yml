@@ -1,0 +1,11 @@
+markdown: kramdown
+highlighter: rouge  # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+
+menu: "item"
+title: "Dr. Urologista"
+permalink: ":categories/:title/"
+
+
+#local
+baseurl: "/"
