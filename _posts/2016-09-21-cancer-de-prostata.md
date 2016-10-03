@@ -1,6 +1,6 @@
 --- 
 layout: post
-title:  "Cancer de Prostata"
+title:  "Câncer de Prostata"
 date: 2016-09-21
 categories: "doencas-relacionadas"
 

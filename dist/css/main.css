@@ -12300,7 +12300,9 @@ body {
 
 .post-block {
   background: #fff;
-  padding: 0; }
+  padding: 0;
+  min-height: 410px;
+  margin-top: 20px; }
   .post-block .bg-img {
     height: 13em;
     width: 100%;

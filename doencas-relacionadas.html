@@ -11,7 +11,7 @@ permalink: doencas-relacionadas/
 </style>
 
 <div class="parallax-mirror" style="visibility: visible; z-index: -100; position: fixed; top: 121px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 380px; width: 1440px;">
-    <img class="parallax-slider" src="/dist/images/about-me/hero-banner.jpg" style="transform: translate3d(0px, 0px, 0px); position: absolute; top: -96.8px; left: 0px; height: 810px; width: 1440px; max-width: none;">
+    <img class="parallax-slider" src="{{'./dist/images/doencas-relacionadas/banner.jpg' | prepend: site.baseurl }}" style="transform: translate3d(0px, 0px, 0px); position: absolute; top: -96.8px; left: 0px; height: 810px; width: 1440px; max-width: none;">
 </div>
 <div class="overflow_wrapper">
     <div class="head_panel">
@@ -33,17 +33,19 @@ permalink: doencas-relacionadas/
     <section class="doencas-relacionadas">
         <div class="container">
             {% for post in site.categories.doencas-relacionadas %}
-                <div class="col-md-4 col-xs-12 col-sm-12 post-block">
-                    <div class="bg-img" style='background-image: url("{{ post.thumbnail | prepend: site.baseurl }}");'></div>
-                    <div class="box-inner">
-                        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-                        <p class="post-date"> {{ post.date | date: '%d/%m/%Y'}} </p>
-                        <p>{{ post.description | truncate:150 }} </p>
+                <div class="col-md-4 col-xs-12 col-sm-12">
+                    <div class="post-block">
+                        <div class="bg-img" style='background-image: url("{{ post.thumbnail | prepend: site.baseurl }}");'></div>
+                        <div class="box-inner">
+                            <h3><a href="{{ post.url  }}">{{ post.title }}</a></h3>
+                            <p class="post-date"> {{ post.date | date: '%d/%m/%Y'}} </p>
+                            <p>{{ post.description | truncate:150 }} </p>
 
-                        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary with-icon icon-left" title="" target="_self">
-                            <i class="fa fa-info" aria-hidden="true"></i> Saiba Mais 
-                        </a>
-                    </div>
+                            <a href="{{ post.url  }}" class="btn btn-primary with-icon icon-left" title="" target="_self">
+                                <i class="fa fa-info" aria-hidden="true"></i> Continue Lendo    
+                            </a>
+                        </div>
+                    </div> 
                 </div>
             {% endfor %}
         </div>
