@@ -3,7 +3,7 @@ layout: post
 title:  "prevenção da prostata"
 date:   2014-04-20 09:11:03
 categories: "exames"
-thumbnail: "http://image.prntscr.com/image/cdfd63e749f04f1581f0e785f2233e2c.png"
+thumbnail: "http://testosterona.me/wp-content/uploads/2016/06/prostata.jpg"
 
 ---
 
@@ -15,7 +15,7 @@ thumbnail: "http://image.prntscr.com/image/cdfd63e749f04f1581f0e785f2233e2c.png"
 
 ## Como é feita a prevenção?
 
-A próstata é uma glândula masculina que se localiza entre a bexiga e o reto. Essa glândula participa da produção do sêmen, líquido que carrega os espermatozóides produzidos no testículo. Ela envolve a uretra e seu tamanho normal é de uma azeitona. 
+A próstata é uma glândula masculina que se localiza entre a bexiga e o reto. Essa glândula participa da produção do sêmen, líquido que carrega os espermatozóides produzidos no testículo. Ela envolve a uretra e seu tamanho normal é de uma azeitona.
 A próstata, como todo o aparelho sexual masculino, tem o seu funcionamento regulado pelos níveis de testosterona circulantes, o hormônio masculino.
 
 O  câncer de próstata, como a maioria dos tipos de câncer, tem fatores de risco identificáveis (para maiores informações sobre fatores de risco para este tipo de câncer leia o artigo "Detecção Precoce do Câncer de Próstata" neste site).
@@ -27,9 +27,9 @@ Os fatores de risco e proteção para o câncer de próstata mais conhecidos e q
 
 ### Idade
 
-O câncer de próstata é incomum em homens de 50 anos ou menos. Porém depois dessa idade torna-se mais comum a cada década que passa. Por isso, 
+O câncer de próstata é incomum em homens de 50 anos ou menos. Porém depois dessa idade torna-se mais comum a cada década que passa. Por isso,
 fazer exames de detecção precoce após essa idade é importante.
-Quanto mais precocemente se diagnostica um tumor, maior são as chances de cura.Os exames mais comumente realizados para se detectar esse tipo de câncer, 
+Quanto mais precocemente se diagnostica um tumor, maior são as chances de cura.Os exames mais comumente realizados para se detectar esse tipo de câncer,
 precocemente ou não, são o toque retal, o exame de ultra-sonografia transretal e o exame de PSA (antígeno prostático-específico).
 
 ### Dieta

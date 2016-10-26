@@ -17,10 +17,9 @@ layout: default
 									<div class="t2">
                                     Entendemos sua urgência, agende uma consulta de emergencia através do whatsapp:
 										<br>
-										
+
 											<span class="pull-right">
 												<i class="fa fa-whatsapp"></i> (12) 99639-0908
-
 											</span>
 										</div>
 									</div>
@@ -121,7 +120,7 @@ layout: default
 												</div>
 												<div class="content text-center   with_button ">
 													<div class="hgroup">
-														<h4>Sobre mim</h4> 	
+														<h4>Sobre mim</h4>
 														<p>Dr. Leonardo I. Marcondes Braga</p>
 													</div>
 													<div class="link centered">
@@ -172,7 +171,7 @@ layout: default
 														<span style="font-size:20px;text-transform:none;font-weight:600">(Pedras no rim)</span>
 													</h2>
 													<p> Em:
-														<a href="{{ "#" | prepend: site.baseurl }}">
+														<a href="{{ 'doencas-relacionadas' | prepend: site.baseurl }}">
 															<em>Doenças relacionadas</em>
 														</a>
 													</p>
@@ -203,11 +202,8 @@ layout: default
 													</div>
 												</div>
 												<div class="plethora_button wpb_content_element  text-left ">
-													<a href="#" class="btn btn-primary with-icon icon-left" title="" target="_self">
+													<a href="{{ 'doencas-relacionadas/litiase-renal' | prepend: site.baseurl }}" class="btn btn-primary with-icon icon-left" title="" target="_self">
 														<i class="fa fa-info"></i> Saiba Mais
-
-
-
 													</a>
 												</div>
 											</div>
@@ -217,7 +213,7 @@ layout: default
 												<!-- ========================== TEASER BOX ==========================-->
 												<div class="teaser_box wpb_content_element text-center  skincolored_section    with_button ">
 													<div class="figure ">
-														<a href="#" title="" target="">
+														<a href="{{ 'doencas-relacionadas/litiase-renal' | prepend: site.baseurl }}" title="" target="">
 															<div class="figure  stretchy_wrapper ratio_16-9" style="background-image:url('http://www.remedio-caseiro.com/wp-content/uploads/2014/05/chas-que-ajudam-a-tratar-pedras-nos-rins.jpg')"></div>
 														</a>
 													</div>
@@ -259,7 +255,7 @@ layout: default
 														<div class="wpb_wrapper">
 															<div class="teaser_box wpb_content_element text-center  light_section    with_button ">
 																<div class="figure transparent">
-																	<a href="{{ post.url | prepend:site.baseurl }}" title="" target="">
+																	<a href="{{ post.url | prepend: baseurl }}" title="" target="">
 																		<div class="figure transparent stretchy_wrapper ratio_4-3" style="background-image:url('{{ post.thumbnail }}')"></div>
 																	</a>
 																</div>
