@@ -3,10 +3,44 @@
     {%include head.html %}
 </head> 
 <body class="vc_responsive sticky_header ">
-    <!-- •••••••••••• main-wrapper •••••••••••• -->
+
+<!-- facebook-analytics -->
+<script>
+    window.fbAsyncInit = function() {
+    FB.init({
+        appId      : '2304984633060481',
+        xfbml      : true,
+        version    : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+ <!-- facebook like button scripts -->
+<div id="fb-root"></div>
+
+<script>
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9&appId=2304984633060481";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+    <!--main-wrapper-->
     <div class="overflow_wrapper">
         <div class="header ">
-            <!-- •••••••••••• top-bar •••••••••••• -->
+            <!--top-bar-->
             <div class="topbar vcenter transparent">
                 <div class="container">
                     <div class="row">
@@ -25,25 +59,23 @@
 
                         </div>
                     </div>
-                </div> <!-- •••••••••••• END top-bar •••••••••••• -->
+                </div> <!-- end top-bar -->
                 <div class="mainbar  color">
                     <div class="container">
+                        <!--logo-->
                         <div class="logo">
-                            <a href="index.html" class="brand">
+                            <a href="/" class="brand">
                                 <img src='{{ "dist/images/theme/healthflex_logo_color.png" | prepend: site.baseurl }}' alt="HealthFlex">
                             </a>
                         </div>
-                        <!-- •••••••••••• social-icons •••••••••••• -->
-                       <!--  <a title="" href="index.html#" class="social_links"><i class="fa fa-share-alt"></i></a>
-                        <div class="team_social">
-                            <a href="https://www.facebook.com/drurologista/" target="_blank" title="Facebook"><i class="fa fa fa-facebook"></i></a><a href="index.html#" title="Google+"><i class="fa fa fa-google-plus"></i></a>
-                            <a
-                            href="index.html#" title="LinkedIn"><i class="fa fa fa-linkedin"></i></a><a href="index.html#" title="Skype"><i class="fa fa fa-skype"></i></a>
-                            <a
-                            href="index.html#" title="Send Us An Email"><i class="fa fa fa-envelope"></i></a>
-                        </div> --><!-- •••••••••••• END social-icons •••••••••••• -->
 
-                        <!-- •••••••••••• menu •••••••••••• -->
+                        <!--social-cions-->
+                        <a title="" href="/" class="social_links"><i class="fa fa-share-alt"></i></a>
+                        <div class="team_social">
+                            <a href="https://www.facebook.com/drurologista/" target="_blank" title="Facebook"><i class="fa fa fa-facebook"></i></a>
+                        </div>
+
+                        <!-- menu -->
                         <div class="menu_container"><span class="close_menu">&times;</span>
                             <ul id="menu-primary-menu" class="main_menu hover_menu">
                                 <li class="menu-item"><a href="/"> home </a></li>
@@ -52,10 +84,10 @@
                                 <li class="menu-item"><a href='{{ "contato" | prepend: site.baseurl }}'>informações &#38; contato</a></li>
 
                             </ul>
-                        </div><!-- •••••••••••• END menu •••••••••••• -->
-
-                        <label class="mobile_collapser">MENU</label><!-- •••••••••••• menu-mobile title •••••••••••• -->
-
+                        </div><!-- end menu -->
+                        
+                        <!-- menu-mobile title-->
+                        <label class="mobile_collapser">MENU</label> 
                     </div>
                 </div>
 

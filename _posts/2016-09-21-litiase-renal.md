@@ -3,7 +3,6 @@ layout: post
 title:  "Litíase Renal"
 date: 2016-09-22
 categories: "doencas-relacionadas"
-
 description: "As pedras nos rins são formadas por cristais presentes na urina que se agregam e formam o cálculo. A maioria (80%) tem um componente de cálcio. Também existem os cálculos sem o componente cálcico, como os de ácido úrico. É uma doença que acomete cerca de 12% dos homens e 6% das mulheres."
 
 thumbnail: "./dist/images/posts/thumbnail-litiase-renal.jpg"

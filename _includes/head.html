@@ -4,7 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{%if page.title %}{{ page.title }} - {{ site.title }} {% else %} {{ site.title }} {% endif %} </title>
     <meta name="viewport" content="width=device-width">
-
+    <meta name="Description" content="Dr. Leonardo Braga, Urologista, São José dos Campos. Oferecemos o melhor tratamento contra calculos renais, cancer de prostata, infecção urinária, bexiga hiperativa entre outras doenças. Agende uma consulta">
+    <meta name="Keywords" content="urologista,dr.,doutor,urologia,colica renal,cancer,prostata,bexiga,cirurgia,robotica,sao jose dos campos,sjc,vale do paraiba">
 
     <link rel="shortcut icon" type="image/png" href='{{ "dist/images/favicon.png" | prepend: site.baseurl }}'/>
     <link rel="shortcut icon" type="image/png" href='{{ "dist/images/favicon.png" | prepend: site.baseurl }}'/>
@@ -16,7 +17,16 @@
     <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
     <!-- working around jekyll relative path -->
 
-
+    <!-- facebook share info -->
+    <meta property="og:url"           content="{{page.url | prepend: 'http://www.drurologista.com.br'}}" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="{%if page.title %}{{ page.title }} - {{ site.title }} {% else %} {{ site.title }} {% endif %}" />
+    {% if page.layout == "post" %}
+        <meta property="og:description"   content="{{ page.description | truncate:150 }} " />
+    {% else %}
+        <meta property="og:description"   content="Dr. Leonardo Braga, Urologista, São José dos Campos. Oferecemos o melhor tratamento contra calculos renais, cancer de prostata, infecção urinária, bexiga hiperativa entre outras doenças. Agende uma consulta" />
+    {% endif %}
+    <meta property="og:image"         content="http://res.cloudinary.com/dfbcc7qin/image/upload/v1498775518/facebook-share-banner_q2zcew.jpg" />
 </head>
 
 
@@ -33,7 +43,6 @@
 <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 
 
-<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://plethorathemes.com/healthflex/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
 <!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://plethorathemes.com/healthflex/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->
 <style type="text/css" data-type="vc_shortcodes-custom-css">
