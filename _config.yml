@@ -1,6 +1,6 @@
 ---
 title: Dr. Urologista
-timezone: UTC
+timezone: America/Sao_Paulo
 collections:
   posts:
     title: Posts
@@ -8,8 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-markdown: kramdown
 highlighter: rouge
+markdown: kramdown
 exclude:
 - node_modules
 - gulpfile.js
