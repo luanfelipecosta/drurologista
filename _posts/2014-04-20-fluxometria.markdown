@@ -1,12 +1,13 @@
 ---
+title: Fluxometria
+date: 2014-04-20 09:11:03 Z
+categories:
+- exames
 layout: post
-title:  "Fluxometria"
-date:   2014-04-20 09:11:03
-categories: "exames"
-
 thumbnail: "./dist/images/exames/fluxometria.jpg"
-banner: "sadasdas"
+banner: sadasdas
 ---
+
 ![fluxometria]({{ "dist/images/posts/exames-fluxometria-1.jpg" | prepend: site.baseurl }} "fluxometria")
 
 # Fluxometria
