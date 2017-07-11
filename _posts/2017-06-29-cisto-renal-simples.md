@@ -1,12 +1,15 @@
 ---
+title: Fluxometria
+date: 2017-06-29 09:11:03 Z
+categories:
+- doencas-relacionadas
 layout: post
-title:  "Fluxometria"
-date:   2017-06-29 09:11:03
-categories: "doencas-relacionadas"
 thumbnail: "./dist/images/posts/cisto-renal.jpg"
-
-description: "O diagnóstico de cistos renais como achado de exame é cada vez mais frequente. A principal razão é a melhora da qualidade dos equipamentos de Ultrassom e a utilização cada vez mais frequente para screening de doenças em geral."
+description: O diagnóstico de cistos renais como achado de exame é cada vez mais frequente.
+  A principal razão é a melhora da qualidade dos equipamentos de Ultrassom e a utilização
+  cada vez mais frequente para screening de doenças em geral.
 ---
+
 ![fluxometria]({{ "dist/images/posts/cisto-renal-2.jpg" | prepend: site.baseurl }} "fluxometria")
 
 # Cistos Renais Simples

@@ -1,13 +1,13 @@
---- 
+---
+title: Câncer de Prostata
+date: 2016-09-21 00:00:00 Z
+categories:
+- doencas-relacionadas
 layout: post
-title:  "Câncer de Prostata"
-date: 2016-09-21
-categories: "doencas-relacionadas"
-
-description: "É uma doença, na qual as células prostáticas podem sofrer modificações moleculares e se multiplicarem de forma descontrolada, podendo avançar e atingir outros órgãos, localmente ou à distância."
-
+description: É uma doença, na qual as células prostáticas podem sofrer modificações
+  moleculares e se multiplicarem de forma descontrolada, podendo avançar e atingir
+  outros órgãos, localmente ou à distância.
 thumbnail: "./dist/images/posts/thumbnail-cancer-de-prostata.jpg"
-
 ---
 
 # Cancer de próstata:

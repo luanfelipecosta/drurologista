@@ -1,10 +1,10 @@
 ---
+title: prevenção da prostata
+date: 2014-04-20 09:11:03 Z
+categories:
+- exames
 layout: post
-title:  "prevenção da prostata"
-date:   2014-04-20 09:11:03
-categories: "exames"
-thumbnail: "http://testosterona.me/wp-content/uploads/2016/06/prostata.jpg"
-
+thumbnail: http://testosterona.me/wp-content/uploads/2016/06/prostata.jpg
 ---
 
 ![prevencao-prostata]({{ "dist/images/posts/exames-prevencao-prostata-1.jpg" | prepend: site.baseurl }} "fluxometria")

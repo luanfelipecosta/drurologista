@@ -1,12 +1,11 @@
 ---
+title: Urodinâmica
+date: 2014-04-20 09:11:03 Z
+categories:
+- exames
 layout: post
-title:  "Urodinâmica"
-date:   2014-04-20 09:11:03
-categories: "exames"
-
 thumbnail: "./dist/images/exames/urodinamica.jpg"
 ---
-
 
 # Urodinâmica
 

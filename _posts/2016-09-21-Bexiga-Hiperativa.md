@@ -1,15 +1,16 @@
---- 
-layout: post
-title:  "Bexiga Hiperativa"
-date: 2016-09-21
-categories: "doencas-relacionadas"
-
-description: "Cerca de 72% dos brasileiros com bexiga hiperativa nunca procuraram tratamento por desconhecerem ser portadores desse problema de saúde, caracterizado pela sensação de urgência para urinar podendo chegar à perda involuntária de urina. Este é o resultado de pesquisa realizada no Rio Grande do Sul que constatou que cerca de 19% da população têm o problema."
-
-thumbnail: "./dist/images/posts/thumbnail-bexiga-hiperativa.jpg"
-
 ---
-
+title: Bexiga Hiperativa
+date: 2016-09-21 00:00:00 Z
+categories:
+- doencas-relacionadas
+layout: post
+description: Cerca de 72% dos brasileiros com bexiga hiperativa nunca procuraram tratamento
+  por desconhecerem ser portadores desse problema de saúde, caracterizado pela sensação
+  de urgência para urinar podendo chegar à perda involuntária de urina. Este é o resultado
+  de pesquisa realizada no Rio Grande do Sul que constatou que cerca de 19% da população
+  têm o problema.
+thumbnail: "./dist/images/posts/thumbnail-bexiga-hiperativa.jpg"
+---
 
 # Bexiga Hiperativa 
 
